@@ -1,0 +1,57 @@
+# Local environments and dependencies
+venv/
+.venv/
+env/
+ENV/
+__pypackages__/
+node_modules/
+
+# Secrets and local credentials
+.env
+.env.*
+*.env
+*.env.*
+.secrets/
+secrets/
+credentials/
+credentials*.json
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.pypirc
+
+# Python bytecode, caches, and test reports
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Generated packaging and build output
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+*.spec
+pip-wheel-metadata/
+
+# Editor, operating system, and runtime files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
